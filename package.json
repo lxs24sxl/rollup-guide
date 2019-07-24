@@ -1,0 +1,22 @@
+{
+  "name": "rollup-guide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundle-2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lxs24sxl/rollup-guide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lxs24sxl/rollup-guide/issues"
+  },
+  "homepage": "https://github.com/lxs24sxl/rollup-guide#readme",
+  "devDependencies": {
+    "rollup-plugin-json": "^4.0.0"
+  }
+}
