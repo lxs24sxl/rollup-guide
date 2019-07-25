@@ -4,7 +4,7 @@
   "description": "",
   "main": "bundle-2.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/lxs24sxl/rollup-guide#readme",
   "devDependencies": {
-    "rollup-plugin-json": "^4.0.0"
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "the-answer": "^1.0.0"
   }
 }
