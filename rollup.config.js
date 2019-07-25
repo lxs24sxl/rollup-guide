@@ -6,6 +6,7 @@ export default {
   output: {
     file: 'bundle.js',
     format: 'cjs',
+    name: 'test'
   },
   plugins: [
     json(),

@@ -1,12 +1,8 @@
 'use strict';
 
-function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+require('lodash');
 
-var _ = _interopDefault(require('lodash'));
-
-var foo = {
-  message: 'hello world'
-};
+const  message = "message";
 
 var version = "1.0.0";
 
@@ -14,11 +10,11 @@ var index = 42;
 
 console.log('the answer is ' + index);
 
-console.log(_.cloneDeep(foo));
-function main () {
-  console.log(foo);
-  console.log("version", version);
-  console.log('the answer is ' + index);
-}
+// console.log(_.cloneDeep(message));
+var main = {
+  message,
+  answer: index,
+  version
+};
 
 module.exports = main;
